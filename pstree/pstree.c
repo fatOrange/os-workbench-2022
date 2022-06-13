@@ -20,8 +20,8 @@ typedef struct ProcessNode_s
 {
     
     int child_size;
-    ProcessNode_t* children;
-    ProcessNode_t* parent;
+    struct ProcessNode_s* children;
+    struct ProcessNode_s* parent;
     ProcessInfo_t process_info;
 
 } ProcessNode_t;
