@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <assert.h>
-#include <filesystem>
 #include <unistd.h>
 
 int main(int argc, char *argv[]) {
