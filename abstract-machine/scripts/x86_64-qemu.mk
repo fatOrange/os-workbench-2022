@@ -10,4 +10,4 @@ AM_SRCS := x86/qemu/start64.S \
            x86/qemu/mpe.c
 
 run: build-arg
-	@qemu-system-x86_64 $(QEMU_FLAGS)
+	@/home/orange/qemu-7.2.0-rc4/qemu-7.2.0-rc4/build/qemu-system-x86_64 -S -s $(QEMU_FLAGS)

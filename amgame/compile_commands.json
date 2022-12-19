@@ -1,0 +1,38 @@
+[
+    {
+        "arguments": [
+            "x86_64-linux-gnu-gcc",
+            "-c",
+            "-m32",
+            "-fno-pic",
+            "-Os",
+            "-nostdlib",
+            "-Ttext",
+            "0x7c00",
+            "-I/mnt/e/workspace/my_os-workbench-22/os-workbench-2022/amgame/../abstract-machine/am/src",
+            "-o",
+            "bootblock.o",
+            "main.c"
+        ],
+        "directory": "/mnt/e/workspace/my_os-workbench-22/os-workbench-2022/abstract-machine/am/src/x86/qemu/boot",
+        "file": "main.c"
+    },
+    {
+        "arguments": [
+            "x86_64-linux-gnu-gcc",
+            "-c",
+            "-m32",
+            "-fno-pic",
+            "-Os",
+            "-nostdlib",
+            "-Ttext",
+            "0x7c00",
+            "-I/mnt/e/workspace/my_os-workbench-22/os-workbench-2022/amgame/../abstract-machine/am/src",
+            "-o",
+            "bootblock.o",
+            "start.S"
+        ],
+        "directory": "/mnt/e/workspace/my_os-workbench-22/os-workbench-2022/abstract-machine/am/src/x86/qemu/boot",
+        "file": "start.S"
+    }
+]
